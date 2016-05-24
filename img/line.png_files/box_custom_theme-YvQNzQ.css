@@ -1,0 +1,61 @@
+/*
+ * This CSS file is for doing static overriding of default styles for custom themes.
+ */
+
+
+
+/*
+ * Header sprites for custom themes are more neutral
+ */
+
+/*
+ * Item list sprites
+ */
+
+.sprite_18x18_gear
+{
+	background: transparent url(../img/box/18x18-7UnItP.png) no-repeat 0 0;
+	background-position: 2px -388px;
+}
+
+.sprite_18x18_mail
+{
+	background: transparent url(../img/box/18x18-7UnItP.png) no-repeat 0 0;
+	background-position: 2px -317px;
+}
+
+.sprite_18x18_security
+{
+	background: transparent url(../img/box/18x18-7UnItP.png) no-repeat 0 0;
+	background-position: 2px -461px;
+}
+
+.sprite_48x24_tags
+{
+	background: transparent url(../img/box/48x48-zs5Kwn.png) no-repeat scroll 0 0;
+	background-position: -416px -67px;
+}
+.sprite_128x128_empty_collab
+{
+	background: url(../img/box/128x128-kD6itr.png) no-repeat 0 0;
+	background-position: -418px -540px;
+}
+
+/*
+ * share
+ */
+
+li.selected.shared .action_list .share_indicator,
+li.hover.shared .action_list .share_indicator,
+li.item_share_expanded .action_list .share_indicator
+{
+	background-position: -218px -90px;
+}
+
+/*
+ * Select checkbox
+ */
+#tag_filter a:hover
+{
+	background-position: -192px -606px;
+}

@@ -1,0 +1,83 @@
+/* mobile navbar */
+.navbar-header {
+  background: white;
+  box-shadow: 0px 0px 35px -10px #000000;
+}
+
+.navbar-toggle {
+  border: none;
+  position: absolute;
+  z-index: 1000;
+}
+
+.navbar-toggle .icon-bar {
+  height: 3px;
+}
+
+.navbar-collapse {
+  background: #1d1d1b;
+  width: 60%;
+  max-height: 100% !important;
+  overflow-x: hidden;
+  background: #074a76;
+}
+
+.navbar-default {
+  background: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #074a76;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+  font-size: 5vw;
+}
+
+.navbar-logo {
+  padding: 10px;
+}
+
+.navbar.mobile .navbar-nav {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.nav .bottom-align-text {
+  width: 100%;
+  position: absolute;
+  color: white;
+}
+
+.nav .bottom-align-text img {
+  max-width: 100%;
+}
+
+.nav .bottom-align-text .social {
+  float: left;
+  padding-top: 8px !important;
+  margin: 20px 15px 40px 0 !important;
+}
+
+a.social, .navbar-default .navbar-nav > li > a.social:focus, .navbar-default .navbar-nav > li > a.social:hover {
+  color: white;
+  background: url(../img/button_bg.png);
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar {
+  display: none;
+}
+
+.mobilelogo {
+  display: none;
+}

@@ -1,0 +1,380 @@
+@media (min-width: 1279px) {
+  .cta {
+    padding: 0px;
+  }
+
+  .cta1 {
+    padding: 75px;
+  }
+
+  .action .subhead {
+    width: 40%;
+  }
+}
+
+
+
+
+@media (max-width: 900px) {
+  .button.fixed {
+    font-size: 1.7vw;
+  }
+
+  .header {
+    min-height: 400px;
+    background-position: top;
+  }
+
+  .headline {
+    margin-top: 200px;
+  }
+
+
+
+
+  .mission .titlecontainer {
+  padding: 12% 0 15% 0;
+}
+
+.mission .subhead {
+  width: 90%;
+}
+
+.stats {
+  padding: 30px;
+}
+
+.stories .story {
+  height: 330px;
+}
+
+.story .storylink {
+  padding-right: 40%;
+  background-size: 20%;
+  width: 80%;
+}
+
+/*.mission { height: 325px; }
+.tabs .tab { font-size: 2.8vw; }*/
+.tab-content-container {
+  height: 430px;
+}
+
+.tab-content p.fullline, .tab-content h3 {
+  font-size: 2.8vw;
+}
+
+/*.action { padding-top: 30px; padding-bottom: 20px; height: 550px; }*/
+.action {
+  padding-bottom: 55%;
+}
+
+.action .subhead {
+  width: 60%;
+}
+
+.cta fieldset p {
+  font-size: 1.8vw;
+}
+
+.col-center {
+  margin: 0 5% !important;
+}
+
+.action .col-sm-3 {
+  width: 30% !important;
+}
+
+.cta .social {
+  margin-right: 2px;
+}
+
+.cta p {
+  font-size: 16px;
+}
+
+
+}
+
+
+
+
+@media (max-width: 760px) {
+  .home-fixed, .navbar.desktop {
+    display: none !important;
+  }
+
+  .navbar {
+    display: block;
+  }
+
+  .mobilelogo {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .mobilelogo img {
+    width: 290px;
+    margin-top: 60px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .cta p {
+    font-size: 14px;
+  }
+
+@media (max-width: 640px) {
+  .navbtn {
+    display: block;
+  }
+
+  .mobileheader {
+    display: block;
+  }
+
+  .subhead3 {
+    display: none;
+  }
+
+  .linestory {
+    display: block;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .story-page-scroll {
+    color: #074a76;
+    position: absolute;
+    bottom: 0px;
+    transform: translate(-50%, 0);
+    left: 50%;
+    display: none;
+  }
+
+  .bottom-align-text {
+    position: absolute;
+    top: 50%;
+    margin-top: 0;
+    display: none;
+  }
+
+  .mobilecta {
+    display: block;
+  }
+
+  .bottom-align-text1 {
+    position: absolute;
+    margin-top: 0;
+    transform: translate(0, -50%);
+  }
+}
+
+.stories_btn {
+  display: none;
+}
+
+.subhead {
+  margin: 0 auto;
+  margin-top: 50px;
+  position: relative;
+  display: none;
+}
+
+.button.fixed {
+  display: none !important;
+}
+
+.mobilebkg {
+  position: fixed;
+  background: url(../img/desktop_bg.png) center top no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  width: 100%;
+  z-index: -1;
+}
+
+.mobilebkg1 {
+  position: fixed;
+  background: url(img/scholarships/scholar_bg.png) center top no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  width: 100%;
+  z-index: -1;
+}
+
+#stbg1 {
+  background: url(../img/teststory.png) center top no-repeat !important;
+}
+
+#stbg2 {
+  background: url(../img/story2.png) left top no-repeat !important;
+}
+
+#stbg3 {
+  background: url(../img/scholarships/mobile/mobile_bg.png) center top no-repeat !important;
+  background-size: cover !important;
+}
+
+/*  #homebg{background: url (../img/scholarships/desktop_bg.png) center top no-repeat !important;} */
+/*video { display: none !important; }*/
+video {
+  background: url(../img/desktop_bg.png) no-repeat !important;
+  background-size: cover !important;
+  display: none !important;
+}
+
+.header {
+  height: auto;
+}
+
+.header h1 {
+  font-size: 65px;
+  line-height: 65px;
+}
+
+.header h1 span, .header h1 {
+  font-size: 15vw;
+  line-height: 15vw;
+}
+
+.header .subhead {
+  width: 300px;
+}
+
+.header .subhead br {
+  display: none;
+}
+
+.headline .page-scroll {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 9vw;
+}
+
+/*.header h1 { font-size: 12vw; line-height: 12vw; }
+.header h1 span { font-size: 12vw; } 
+.headline { margin-top: 170px; }
+.subhead { font-size: 4vw; width: 100% !important; }*/
+.subhead {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.stats {
+  padding: 40px 20px 60px 20px;
+}
+
+.p {
+  color: #074a76;
+}
+
+.story {
+  width: 100%;
+  background-position: center;
+}
+
+.story .storylink {
+  font-size: 8vw;
+}
+
+.mission {
+  padding: 0;
+  background-position: bottom;
+  padding: 20px 40px;
+}
+
+.mission h2 {
+  margin-top: 40px;
+}
+
+.mission .subhead {
+  width: 100%;
+}
+
+.mission .divider {
+  display: none;
+}
+
+.funds {
+  padding: 0;
+}
+
+.fund {
+  display: table;
+  width: 100%;
+}
+
+.fund img {
+  display: table-row-group;
+  margin: 20px  auto;
+}
+
+.fund img, .fund.off img, .fund p, .fund.off p {
+  display: none !important;
+}
+
+.fund h3 {
+  display: table-header-group;
+  font-size: 20px;
+}
+
+.funds h3 {
+  padding: 0;
+  width: auto;
+  margin: 0 auto;
+}
+
+.funds .on h3 {
+  color: #054a76;
+  background: transparent;
+}
+
+.fund {
+  border-bottom: solid 1px #054a76;
+  background: url(../img/iconplus3.png) no-repeat right;
+  padding: 40px;
+  background-position-x: 97%;
+}
+
+.fund.last {
+  border-bottom: 0px;
+}
+
+.fund.on {
+  background: none !important;
+}
+
+.fund.on img {
+  display: table-row-group !important;
+  width: 30%;
+}
+
+.fund.on p {
+  display: block !important;
+  color: #074a76;
+}
+
+.fund br, .fundcontent {
+  display: none;
+}
+
+
+@media (max-width: 280px) {
+  .number.threelines {
+    margin-top: 25%;
+  }
+}
+
+
+
+
+
+}

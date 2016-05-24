@@ -1,0 +1,14 @@
+/* additional bootstrap classes */
+.bottom-align-text {
+  position: absolute;
+  bottom: 0px;
+}
+
+.bottom-align-text2 {
+  position: absolute;
+}
+
+.invert {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}

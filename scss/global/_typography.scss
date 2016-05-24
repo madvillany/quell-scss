@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Muli Bold;
+  src: url(../fonts/Muli-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Muli Bold;
+  src: url(../fonts/Muli-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Muli Light;
+  src: url(../fonts/Muli-Light.ttf);
+  font-weight: 700;
+}
+
+
+
+html, body {
+  height: 100vh;
+  font-family: Muli Bold;
+}
+
+
+
+\.fittext {
+  font-weight: 100;
+  line-height: 50px;
+  font-size: 45px;
+  font-family: Muli Bold;
+  display: inline-block;
+}
+
+.fittext1 {
+  font-weight: 200;
+  line-height: 50px;
+  font-size: 45px;
+  color: #074a76;
+}

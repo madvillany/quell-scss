@@ -1,0 +1,585 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"mari",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "/* common items */\n\n\n\n.clearfix:after {\n    content: \".\";\n    display: block;\n    height: 0;\n    clear: both;\n    visibility: hidden;\n}\n\n\n\n\n\n.under.funds,.under.fund{display: none;}\n\n\n\n.mobile-header {display:none;}\n.mtitle {display:none;}\n.mobile-sub {display:none;}\n.mssecond {display:none;}\n.page-scroll-arrow {display: none;}\n.grad {display: none;}\n.msfirst p {display:none;}\n.mobile-img {display: none;}\n\n\n\n\n\n.linestory{display:none;}\n\n.line {margin-top: 30px; margin-bottom: 30px;}\n.button { background-color: #074a76; color: white; padding: 10px 50px; /*border-radius: 4px; */display: inline-block;}\n.button:hover { color: white; text-decoration: none; }\n\n\n.subhead a:active, .subhead a:visited, .subhead a, .subhead a:hover { color: #074a76; }\n\n\n\n.funds, .stats { padding: 60px 0; background: #fff; }\n.stats1 { margin-bottom:40px; padding: 80px 0; width: 90%;  background: url(../img/storybg.png) center no-repeat;background-size: 100% 100%;padding:40px;padding-top:60px;}\np { font-size: 1.4vw; font-size: 18px; color: #fff;}\n.stats1 p {color:#074a76; }\n.stats1 p img {max-width: 100%;}\n.stats2 { padding: 60px 0; background: #fff; opacity: .8;}\n.stats2 .fittext {color:#074a76; font-family: muli bold;}\n.stats2 h3{color:#074a76;}\na:focus, a:hover { color: white; text-decoration: none; }\n.hidden { display: none; }\n.viewhidden { opacity:0; }\n.viewvisible { opacity:1; }\n.story-page-scroll,.page-scroll { cursor: pointer; }\n.story-page-scroll p{co\nlor:#074a76;position: absolute;bottom: 0px;transform: translate(-50%, 0);left: 50%;\n}\n.box {background: url(./img/button_bg.png);}\n\n\n\n\n\n\n\n\n\n\n/* donate button */\n.button.fixed { position: fixed; top: 80%; right: 0; font-size: 1; z-index: 100000; }\n#donate-btn {padding:0;}\n#donate-btn img{height:40px;}\n\n/* header */\n.logo { margin-top: 0px; }\n.logo small { color: #074a76; /*visibility: hidden; */    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */\n    animation-duration: 10s;}\n\n/*#desktoplogo { width: 13%; } */\n.header { /*background: url(../img/header2.jpg) center no-repeat; background-size: cover; */ color: white;       min-height: 100%;\n	height: 100%; \n	/* background: rgba(229, 217, 188, .2) !important; */\n  padding-top:50px;\n  padding-top: 0;\n  box-sizing:border-box; }\n.innerheader {   height: 100%; min-height: 100%;}\n/*.headline {   margin-top: 361px; }*/\n.headline { width: 100%; \nleft: 0;\npadding-top: 5%; \n}\n\n\n.fittext {font-weight: 100;line-height: 50px;font-size: 45px; font-family: Muli Bold;display: inline-block;}\n.fittext1 {font-weight: 200;line-height: 50px;font-size: 45px;color:#074a76; }\n.header .fa { font-size: 1.6vw; font-family: 'Muli'; margin-bottom: 20px; animation-iteration-count: 2; display: inline-block;}\n.story-page-scroll {height:140px;width:90%;background: url(../img/top1.png) no-repeat; background-size: 100% 100%; display: inline-block;}\n\n/* stories */\n.stories { padding: 0; position: relative;  }\n.stories .divider { position: absolute; top: 0; text-align: center; z-index: 2; width: 100%;}\n.stories .story { height: 530px;  background-size: cover; position: relative; }\n.story1 { background: url(../img/story1.jpg);}\n.story2 { background: url(../img/story2.jpg);}\n.story3 { background: url(../img/story3.jpg);}\n.story4 { background: url(../img/story4.jpg);}\n.story .storylink { color: white; font-size: 2.5vw; text-transform: uppercase; display: inline-block; background: url(../img/storylink.png)  right no-repeat; width: 90%; box-sizing: border-box; padding-right: 30%; line-height: 120%; margin-bottom: 40px; }\n.story .storylink:hover { text-decoration: none; }\n\n/* mission */\n.mission { /*height: 405px; */ background: url(../img/mission4.jpg) top center; color: white; position: relative; background-size: cover; background: transparent; }\n.mission .titlecontainer { padding: 8% 0 11% 0; }\n.mission h2 { margin-top: 0; }\n.mission .subhead { width: 40%; margin: 0 auto;}\n.mission .button { margin-top: 30px; }\n\n\n/* funds */\n.storyon {opacity: .4;}\n\n.funds p { display: block; color:#074a76; margin:0 auto; width: 55%;}\n.fund { color: rgba(5,74,118,0.5);  }\n.funds .off img {}\n.fund img { width: 50%; max-width: 150px; }\n.funds .col-md-4 { cursor: pointer; off; }\n.funds h3 { padding: 10px;  width: 45%;   margin: 0 auto 15px auto;color:#074a76; }\n.funds h3 .off{ padding: 10px;  width: 65%;   margin: 0 auto 15px auto;}\n.fundcontent { padding: 10px 6%;  font-size: 22px; visibility: visible;  color:#074a76;display:none;}\n.funds .row { margin: 0;}\n.story-page-scroll {display: inline-block;}\n/* tabbed content */\n.tabs .tab {  color: white; padding: 10px; border-left: solid 1px white; border-right: solid 1px white; border-top: solid 1px white; font-size: 1.6vw; cursor: pointer;}\n.tab.selected { color: black; background: white; font-weight: 700;}\n\n.tab-content-container { padding-top: 60px; padding-bottom: 40px; background: white;}\n.tab-content-container ol { padding: 0; }\n.tab-content h3 { font-size: 1.6vw; margin-top: 0; text-transform: uppercase; }\n.tab-content p.fullline { font-size: 1.6vw; }\n.tab-content p { display: inline-block; width: 100%;  }\n.tab-content ol { margin-top: 20px; position: relative; }\n.tab-content .column { padding: 0; }\n.mobiletab, .mobilecta { display: none; }\nimg.number { max-width: 80%; float:right;  margin-right: 10px;  }\n/*\nspan.number{\n  border: solid 2px #98b842; \n  border-radius: 1em;\n  color: #98b842;\n  display: inline-block;\n  font-weight: bold;\n  line-height: 1.8em;\n  margin-right: 5px;\n  text-align: center;\n  width: 2em;   \n}\n*/\n\n/* take action */\n.action1 { height: 660px; background: url(../img/scholarships/esktop_bg.png) center no-repeat; background-size: cover; color: white; position: relative; padding-top: 60px; /*padding-bottom: 45%; */}\n.action { /*height: 660px; */ color: white; position: relative; padding-top: 60px; /*padding-bottom: 45%; */}\n.action .subhead { width: 55%; margin: 0 auto; font-family: muli bold;}\n.action .titlecontainer { margin-bottom: 30px; }\n.tab-content-container { height: 400px; }\n/*.action .button { margin-top: 30px; margin-bottom: 30px; font-size: 1.7vw; visibility: hidden; }\n.cta legend { border-bottom: none !important; width: 40%; color: white; margin: 0 30%; text-align: center; font-size: 1.8vw;}\n.cta fieldset { border: solid 1px white !important; height: 230px; padding: 17px;  }\n.cta fieldset p { font-size: 1.1vw; }\n.cta fieldset p a { color: white; text-decoration: underline;}*/\n.cta { width: 97%; box-sizing: border-box;  margin-bottom: 20px; }\n/*.cta .col-md-3 { min-height: 270px; }*/\n.cta .col-md-3 { margin-bottom: 60px; padding-top: 20px; }\n/* default 25% widths \n.cta .col-md-3 { margin-bottom: 60px; }\n.cta .col-center { margin: 0 12.5%; } \n*/\n.cta .col-md-3 { width: 30%; background: rgba(7,74,118,.7); }\n.cta .col-center { margin: 0 5%; } \n\n.cta .cta-headernolink, .mobilecta .cta-header, .cta .cta-header a { display: block; font-size: 1.6vw; padding: 0px 0; font-size: 24px; }\n.cta p, .cta a{ color: white; /* font-size: 1.2vw; */ font-weight: 300;}\n\n\n.cta .btn1{ font-weight: 700; width:90%;height:50px;background: url(../img/button_bg.png) no-repeat;background-size: 100% 100%; margin:0 auto;margin-bottom:10px;position:relative;}\n\n.cta .btn1 a{position:absolute;top:50%;left:50%;transform: translate(-50%, -50%);width:190px; text-transform: uppercase;}\n\n.cta .scholar.btn2 { font-weight: 700; width:400px;height:50px;background: url(../img/button_bg.png) no-repeat;background-size: 100% 100%; margin:0 auto;margin-bottom:10px;position:relative;}\n.cta-btn2{bottom:10px;left:50%;height:150px;padding-top: 150px;line-height: 50px;}\n\n\n\n\n\n.cta p.text-center  { /*background: rgba(7,74,118,.7); */padding: 20px; }\n.cta-btn{position:absolute;bottom:10px;left:50%;transform: translate(-50%, 0);width:80%;height:120px;}\n.pluslink, .action .pluslink { display: inline-block; padding-left: 55px; text-decoration: none; background: url(../img/iconplus2.png) no-repeat left; min-height: 40px; width: 100%;  }\n.nav .bottom-align-text .social, .cta .social {\ndisplay: inline-block; color: white;  padding: 2px 0; width: 40px; height: 40px; border-radius: 4px; text-align: center; font-size: 25px; }\n.cta .bottom-align-text  { width: auto; margin: 0 20%; left: 50%; padding-bottom: 10px;transform: translate(-50%, 0); height: 120px;padding: 0 0px; }\n\n.cta .sociallinks { margin:0px; width:65%; }\n.combine {\n	background: url(../img/scholarships/ta-bg.png) center no-repeat;\n    background-size: cover;\n}\n\n\n\n\n/* SCHOLARSHIP DISSPLAY BLOCK */\n\n.mtitile {\n	display: none;\n}\n\n.clearfix {\n	width:90%;\n	max-width:1600px;\n	margin:0 auto;\n}\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n	\n\n\n\n\n\n\n\n\n\n\n	 \n\n\n\n\n    /* width: 55%; */\n\n    .mssecond {\n\n        text-align: left;\n    float: left;\n    width: 50%;\n   \n    color: #074a76;\n    font-size: 14px;\n    padding-bottom: 80px;\n    font-family: muli light;\n    }\n\n    .msthird {\ntext-align: left;\n    float: left;\n    width: 50%;\n    padding-left: 20px;\n    color: #074a76;\n    font-size: 18px;\n    padding-bottom: 80px;\n    font-family: muli light;\n}\n\n    }\n\n\n\n	.fmunds .on h3 { color: #054a76; background: transparent; text-align: center;}\n\n	\n	.tabs { display: none; }\n	/*.tabs { width: 100%; }\n	.tabs .col-md-10 { width: 100%; padding: 0; }\n	.tabs .tab { font-size: 4vw; width: 33.33%; margin: 0; border-right: none; border-top-right-radius: 0px; border-top-left-radius: 0px; }*/\n	\n	\n	.mobiletab { display: block; background: white url(../img/iconplus2.png) no-repeat right; margin: 0 10px 10px 10px; padding: 20px 20px 20px 10px; font-size: 5vw; font-weight: bold; cursor: pointer; clear: both; background-position-x: 90%; }\n\n	.tab-content-container { padding: 20px 0 0 0; height: auto; }\n	.tab-content-container  .container-fluid{ padding: 0; }\n	.tab-content-container .custom-col { width: 100%; }\n	.tab-content { background: #ebebeb; float: left; padding-top: 20px; text-align: left;}\n	.tab-content.default { display: none; }\n	.tab-content p { width: 100%; }\n	.tab-content p, fieldset p { font-size: 4vw; }\n	.tab-content p.fullline { font-size: 4vw;\n }\n	.tab-content h3 { font-size: 6vw; }\n	.tab-content h3.singleline { margin-top: 4%; }\n	span.number { float: left; }\n	\n\n	/*.number { display: none; }\n	.tab-content .text-left { background: url(../img/bullet1.png) left center no-repeat; background-size: 80%; }*/\n	\n	.tab-content h3 { float: left; font-size: 5vw; margin: 3px 0 0 10px; }\n	.custom-col-4 ol .col, .custom-col-2 ol .col, .custom-col ol .col { width: 100%; margin-bottom: 10px; }\n	.custom-col-4 ol .col p, .custom-col-2 ol .col p, .custom-col ol .col p { display: none; }\n	\n	\n	.action { background-position: 84% bottom; padding-bottom: 13%; }\n	\n	.action .subhead { width: 90%; }\n	.action .button { margin: 10px 0; font-size: 7vw; }\n	\n	.cta-header { }\n	.mobilecta .cta-header { font-size: 6vw; margin: 0px 20px 20px 20px; display: block; color: white; }\n	.mobilecta .pluslink { text-align: left; color: black; margin: 10px 0; font-size: 4vw; }\n	.mobilecta .pluslink  strong { clear: both; color: #98b842; text-transform: uppercase;}\n	/*.cta legend { font-size: 6vw; }\n	.cta fieldset.col { width: 100%; height: auto; margin: 10px 0; }\n	.cta fieldset p { font-size: 5vw; }*/\n	\n	footer .pull-left { margin-bottom: 20px; }\n\n	.custom-col { padding: 0; }	\n}\n\n\n\n\n\\\n\n\n\np.test1 {\n	color: #fff;\n     padding:20px;\n	 background-color: rgb(7,74,118);\n	 text-align: left;\n}\n\n\n.modal-footer { display: none; }\n/* custom bounce */\n@-webkit-keyframes bounce2 {\n	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}\n	40% {-webkit-transform: translateY(-10px);}\n	60% {-webkit-transform: translateY(-5px);}\n}\n\n@-moz-keyframes bounce2 {\n	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}\n	40% {-moz-transform: translateY(-10px);}\n	60% {-moz-transform: translateY(-5px);}\n}\n\n@-o-keyframes bounce2 {\n	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}\n	40% {-o-transform: translateY(-10px);}\n	60% {-o-transform: translateY(-5px);}\n}\n@keyframes bounce2 {\n	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}\n	40% {transform: translateY(-10px);}\n	60% {transform: translateY(-5px);}\n}\n\n.animated.bounce2 {\n	-webkit-animation-name: bounce2;\n	-moz-animation-name: bounce2;\n	-o-animation-name: bounce2;\n	animation-name: bounce2;\n}\n\n.army-chevron {\n  -webkit-box-sizing: content-box;\n  -moz-box-sizing: content-box;\n  box-sizing: content-box;\n  width: 50px;\n  height: 0;\n  position: relative;\n  margin: 0 0 6px;\n  padding: 1px;\n  border: none;\n  font: normal 100%/normal Arial, Helvetica, sans-serif;\n  color: rgba(0,0,0,1);\n  text-align: center;\n  -o-text-overflow: clip;\n  text-overflow: clip;\n  margin: 30px 0; \n}\n\n.army-chevron::before {\n  -webkit-box-sizing: content-box;\n  -moz-box-sizing: content-box;\n  box-sizing: content-box;\n  width: 50%;\n  height: 100%;\n  position: absolute;\n  content: \"\";\n  top: 0;\n  left: 0;\n  border: none;\n  font: normal 100%/normal Arial, Helvetica, sans-serif;\n  color: rgba(0,0,0,1);\n  -o-text-overflow: clip;\n  text-overflow: clip;\n  background: white;\n  text-shadow: none;\n  -webkit-transform:    skewY(33deg);\n  transform:    skewY(33deg);\n}\n\n.army-chevron::after {\n  -webkit-box-sizing: content-box;\n  -moz-box-sizing: content-box;\n  box-sizing: content-box;\n  width: 50%;\n  height: 100%;\n  position: absolute;\n  content: \"\";\n  top: 0;\n  right: 0;\n  border: none;\n  font: normal 100%/normal Arial, Helvetica, sans-serif;\n  color: rgba(0,0,0,1);\n  -o-text-overflow: clip;\n  text-overflow: clip;\n  background: white;\n  text-shadow: none;\n  -webkit-transform:    skewY(-33deg);\n  transform:    skewY(-33deg);\n}\n\n.close {\n  cursor: pointer;\n  opacity: 1; \n  margin-top: -4px !important;\n}\n.close:before, .close:after {\n  content: '';\n  background: #FFF;\n  width: 20px;\n  height: 1px;\n  position: relative;\n  cursor: pointer;\n  display: inline-block;\n  -webkit-transform: rotate(45deg);\n          transform: rotate(45deg);\n  left: 0;\n  \n}\n.close:before {\n  -webkit-transform: rotate(-45deg);\n          transform: rotate(-45deg);\n  left: 20px;\n}\n.header {\n/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,db9d47+100&0.2+0,0.2+100 */\nbackground: -moz-linear-gradient(top, rgba(255,255,255,0.4) 0%, rgba(219,157,71,0.1) 100%) !important; /* FF3.6-15 */\nbackground: -webkit-linear-gradient(top, rgba(255,255,255,0.4) 0%,rgba(219,157,71,0.1) 100%) !important; /* Chrome10-25,Safari5.1-6 */\nbackground: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(219,157,71,0.1) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\nfilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33ffffff', endColorstr='#33db9d47',GradientType=0 ) !important; \n}\n\n.topgradient {\nbackground: -moz-linear-gradient(top, rgba(255,255,255,.8) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */\nbackground: -webkit-linear-gradient(top, rgba(255,255,255,.8) 0%, rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */\nbackground: linear-gradient(to bottom, rgba(255,255,255,.8) 0%, rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n\n}\n\n/*.bottomgradient {\nbackground: -moz-linear-gradient(top, rgba(255,255,255,.8) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */\nbackground: -webkit-linear-gradient(top, rgba(255,255,255,.8) 0%, rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */\nbackground: linear-gradient(to bottom, rgba(255,255,255,.8) 0%, rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n}\n\n\n  .label-default {\n  background-color: #fff;\n}\n\n.lead {\n	width:90%;\n	margin:0 auto;\n	text-align: left;\n}\n\n.one {\nwidth: 90%;\nmargin:0 auto;\ntext-align: left;\nmargin-top:20px;\n\n}\n\np#bluebg {\n	background: #074a76;\n	color:#fff;\n	padding:20px;\n}\n\n\n/* Scholarship CSS */\n\n.scholarbg {  \n	padding: 80px 0; \n	width: 70%;  \n	background: url(../img/storybg.png) center no-repeat;background-size: 100% 100%;\n	padding:40px;\n	margin-bottom: 55px;\n	float:left;\n}\n\n\n\n.headerscholar { /*background: url(../img/header2.jpg) center no-repeat; background-size: cover; */ color: white;      \nmargin-bottom: 20px;\n\n}\n\n\n.scholartitle { \n	text-transform: uppercase; font-size: 2vw; letter-spacing: 1.5px; line-height: 30px;  /*width: 48%;*/ font-size: 120px; font-family: muli bold; padding-top: 60px;\n	 }\n\n\n\np.scholarsubtitle {     \n    font-size: 80px;\n    color: #fff;\n}\n\n\np.scholarp{\n\nfont-size: 1.4vw;\n    font-size: 26px;\n    color: #fff;\n}\n\n\n\n.scholarheadline {\n    width: 100%;\n    left: 0;\n   }\n\n.scholar-btns {\n	float: left;\n	width: 30%;\n}\n\n.scholar-btns>div>img {\n	width:310px;\n}\n\n.scholar-btns .req {\n	float:left;\n	font-size:20px;\n	color:#fff;\n	font-family: muli bold;\n	max-width:320px;\n}\n\n.undergraduate {\nmargin-top: 20px;\n}\n\n.graduate {\n\nmargin-top: 20px;\n\n}\n\n.month-btns{\nfloat:left;\npadding-top: 20px;\n\n}\n\n.may-btn {\n\n	float:left;\n	margin-left:20px;\n}\n\n.april-btn {\n\n	float:left;\n}\n\n/* scholarship box */\n\ndiv#scholarbg {\n	border: 2px solid #074a76;\n	width:90%;\n	margin:0 auto;\n	color:#074a76;\n	padding:20px;\n	text-align: left;\n	font-size: 1.6em;\n		font-family: muli light;\n\n}\n\n\n.stitle {\nfont-size: 45px;\ncolor: #074a76;\n\n}\n.sectitle {\ncolor: #074a76;\ntext-align: center;\nfont-size: 24px;\n\n}\n\np.sfirst {\nwidth: 90%;\ncolor: black;\nmargin:0 auto;\ntext-align: left;\nmargin-top:20px;\nfont-size: 22px;\ncolor: #074a76;\npadding-bottom: 10px;\n	font-family: muli light;\n\n}\np.ssfirst {\nwidth: 90%;\ncolor: black;\nmargin:0 auto;\ntext-align: left;\nmargin-top:20px;\nfont-size: 20px;\ncolor: #074a76;\npadding-bottom: 10px;\n	font-family: muli light;\n\n}\n\n.ssecond{\n\n	text-align: left;\n	float:left;\n	width: 50%;\n	padding-left: 20px;\ncolor: #074a76;\nfont-size: 18px;\npadding-bottom: 80px;\n	font-family: muli light;\n}\n\n.ssecond ul {\n	padding:0px;\n}\n\n.sspace {\n	width:10%;\n	float:left;\n}\n\n.sthird {\n\n	text-align: left;\nwidth: 40%;\n	float:left;\n	padding-bottom: 80px;\n	color: #074a76;\nfont-size: 18px;\n	font-family: muli light;\n}\n.sthird p {\ncolor: #074a76;\n}\n\np.scholarsub {\nwidth: 90%;\nmargin:0 auto;\ntext-align: left;\nmargin-top:20px;\n	color: #074a76;\n		font-family: muli light;\n\n\n}\n\n.apply {\n	padding-top: 10px;\n}\n\np.middle {\n	font-size: 20px;\nwidth: 90%;\nmargin:0 auto;\ntext-align: left;\nmargin-top:20px;\n	color: #074a76;\n	padding-bottom: 20px;\n	font-family: muli light;\n\n}\n\n\n/*  lift the mask css */\n\n\n.scholarbg1 {  \n	padding: 80px 0; \n	width: 80%;  \n	background: url(../img/storybg.png) center no-repeat;background-size: 100% 100%;\n	padding:40px;\n	margin-bottom: 55px;\n	\n}\n\n\n.mone {\nwidth: 90%;\nmargin:0 auto;\ntext-align: center;\nmargin-top:20px;\n\n}\n\n\np.ltmbox1 {\nwidth: 90%;\ncolor: black;\nmargin:0 auto;\ntext-align: left;\nmargin-top:20px;\nfont-size: 20px;\ncolor: #074a76;\npadding-bottom: 10px;\n	font-family: muli light;\n\n}\n\np.ltmbox2 {\n	float\nwidth: 90%;\ncolor: black;\nmargin:0 auto;\ntext-align: left;\nmargin-top:20px;\nfont-size: 20px;\ncolor: #074a76;\npadding-bottom: 10px;\n	font-family: muli light;\n\n}\n.footer1 { display:none;}\n\n\n    .ltmssecond {\n\n        text-align: left;\n    \n    color: #074a76;\n    font-size: 14px;\n    padding-bottom: 80px;\n    font-family: muli light;\n    }\n\n\n    p.masktitle {  \n    padding-top: 40px;   \n    font-size: 40px;\n     color: #074a76;\n    padding-bottom: 20px;\n    margin-left: 135px;\n    width: 80%;\n}\n\n\n\np.maskone {\n	padding-bottom: 40px;\nwidth: 90%;\nfont-size:14px;\nmargin:0 auto;\ntext-align: center;\nmargin-top:0;\ncolor:#074a76;\n\n}\n\n\n\n.masksubtitle {\nfont-size: 25px;\ncolor: #074a76;\n\n}\n\n\n.maskheader {\n\n  padding-top: 40px;   \n    font-size: 70px;\n    color: #fff;\n    padding-bottom: 200px;\n    margin-left: 50px;\n}\n\np.maskfirst {\n\n\ncolor: #074a76;\nmargin:0 auto;\ntext-align: center;\nmargin-top:20px;\nfont-size: 35px;\ncolor: #074a76;\npadding-bottom: 10px;\nfont-family: muli light;\ntext-decoration: bold;\n\n}\n\n\np.masksecond {\n\n\ncolor: #074a76;\n\ntext-align: center;\nmargin-top:20px;\nfont-size: 25px;\ncolor: #074a76;\npadding-bottom: 10px;\nfont-family: muli light;\ntext-decoration: bold;\n\n}\n\n\n\n\n\n.list {\n margin-left: 45px;\n font-size: 22px;\n\n\n}\n\n\n input[type=submit] {\n    background-image: url('img/lmt/submit.png');\n    border: none;\n    color: white;\n    padding: 16px 32px;\n    text-decoration: none;\n    margin: 4px 2px;\n    cursor: pointer;\n}\n input[type=text]\n\n  {\n\n color: #074a76;\n width: 30%;\n   \n}\n\n\n.formtitle {\nfont-size: 25px;\ncolor: #074a76;\n\n}\n\n\n.formtext {\n\n\n	float: right;\n\n}\n\n\n\n.box>div>img {\n\n	 float: left;\n	width: 100%;\n}\n\n\n.box1{\n\ndisplay: inline-block;\n width: 45%;\n   \n\n}\n\n.box2{\n\n\nwidth: 49%;\ndisplay: inline-block;\n\n\n}\n",
+			"file": "/Users/Mike/Downloads/Quell-master/css/quell.css",
+			"file_size": 27254,
+			"file_write_time": 131073049100000000,
+			"settings":
+			{
+				"buffer_size": 20365,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/* navbar */\n.navbar.desktop {\n  display: none;\n  box-shadow: 0px 0px 35px -10px #000000;\n  background: white;\n}\n\n.navbar {\n  border: none;\n}\n\n.home-fixed .nav > li.active, .home-fixed .nav > li > a:focus, .home-fixed .nav > li > a:hover, .desktop .nav > li.active, .desktop .nav > li > a:focus, .desktop .nav > li > a:hover {\n  font-weight: 700;\n  background: transparent;\n}\n\n.navbar.desktop a {\n  color: #074a76;\n}\n\n.navbar-inner-subhead {\n  padding: 0px 30px 0 30px;\n}\n\n.navbar-inner-subhead .pull-left {\n  margin-top: 3px;\n}\n\n.navbar-inner-subhead .definition {\n  display: inline-block;\n  font-size: 75%;\n  padding-top: 10px;\n  float: left;\n  color: #074a76;\n}\n\n\n/* home navbar */\n.home-fixed {\n  display: block;\n  position: absolute;\n  width: 100%;\n  z-index: 100;\n}\n\n.home-fixed .navbar-inner-subhead {\n  padding-top: 25px;\n}\n\n.home-fixed {\n  height: 25%;\n  /*background: rgba(255,255,255,.2); */\n}\n\n.header {\n  z-index: 101;\n}\n\n.at-top.navbar-fixed-top {\n  display: block;\n  background: none;\n  box-shadow: none;\n}\n\n.at-top.navbar-fixed-top .pull-left {\n  display: none;\n}\n\n.at-top.navbar-fixed-top {\n  padding: 10px 25px;\n}\n",
+			"file": "scss/nav/_navbar.scss",
+			"file_size": 0,
+			"file_write_time": 131062268980000000,
+			"settings":
+			{
+				"buffer_size": 1132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/buttons/_buttons.scss",
+			"settings":
+			{
+				"buffer_size": 449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/global/_media.scss",
+			"settings":
+			{
+				"buffer_size": 1541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@media (min-width: 1279px) {\n  .cta {\n    padding: 0px;\n  }\n\n  .cta1 {\n    padding: 75px;\n  }\n\n  .action .subhead {\n    width: 40%;\n  }\n}\n\n\n\n\n@media (max-width: 900px) {\n  .button.fixed {\n    font-size: 1.7vw;\n  }\n\n  .header {\n    min-height: 400px;\n    background-position: top;\n  }\n\n  .headline {\n    margin-top: 200px;\n  }\n\n\n\n\n  .mission .titlecontainer {\n  padding: 12% 0 15% 0;\n}\n\n.mission .subhead {\n  width: 90%;\n}\n\n.stats {\n  padding: 30px;\n}\n\n.stories .story {\n  height: 330px;\n}\n\n.story .storylink {\n  padding-right: 40%;\n  background-size: 20%;\n  width: 80%;\n}\n\n/*.mission { height: 325px; }\n.tabs .tab { font-size: 2.8vw; }*/\n.tab-content-container {\n  height: 430px;\n}\n\n.tab-content p.fullline, .tab-content h3 {\n  font-size: 2.8vw;\n}\n\n/*.action { padding-top: 30px; padding-bottom: 20px; height: 550px; }*/\n.action {\n  padding-bottom: 55%;\n}\n\n.action .subhead {\n  width: 60%;\n}\n\n.cta fieldset p {\n  font-size: 1.8vw;\n}\n\n.col-center {\n  margin: 0 5% !important;\n}\n\n.action .col-sm-3 {\n  width: 30% !important;\n}\n\n.cta .social {\n  margin-right: 2px;\n}\n\n.cta p {\n  font-size: 16px;\n}\n\n\n}\n\n\n\n\n@media (max-width: 760px) {\n  .home-fixed, .navbar.desktop {\n    display: none !important;\n  }\n\n  .navbar {\n    display: block;\n  }\n\n  .mobilelogo {\n    display: block;\n    margin-top: 10px;\n  }\n\n  .mobilelogo img {\n    width: 290px;\n    margin-top: 60px;\n  }\n\n  .logo {\n    display: none;\n  }\n\n  .cta p {\n    font-size: 14px;\n  }\n\n@media (max-width: 640px) {\n  .navbtn {\n    display: block;\n  }\n\n  .mobileheader {\n    display: block;\n  }\n\n  .subhead3 {\n    display: none;\n  }\n\n  .linestory {\n    display: block;\n  }\n\n  .line {\n    width: 100%;\n  }\n\n  .story-page-scroll {\n    color: #074a76;\n    position: absolute;\n    bottom: 0px;\n    transform: translate(-50%, 0);\n    left: 50%;\n    display: none;\n  }\n\n  .bottom-align-text {\n    position: absolute;\n    top: 50%;\n    margin-top: 0;\n    display: none;\n  }\n\n  .mobilecta {\n    display: block;\n  }\n\n  .bottom-align-text1 {\n    position: absolute;\n    margin-top: 0;\n    transform: translate(0, -50%);\n  }\n}\n\n.stories_btn {\n  display: none;\n}\n\n.subhead {\n  margin: 0 auto;\n  margin-top: 50px;\n  position: relative;\n  display: none;\n}\n\n.button.fixed {\n  display: none !important;\n}\n\n.mobilebkg {\n  position: fixed;\n  background: url(../img/desktop_bg.png) center top no-repeat !important;\n  background-size: cover !important;\n  background-attachment: fixed !important;\n  width: 100%;\n  z-index: -1;\n}\n\n.mobilebkg1 {\n  position: fixed;\n  background: url(img/scholarships/scholar_bg.png) center top no-repeat !important;\n  background-size: cover !important;\n  background-attachment: fixed !important;\n  width: 100%;\n  z-index: -1;\n}\n\n#stbg1 {\n  background: url(../img/teststory.png) center top no-repeat !important;\n}\n\n#stbg2 {\n  background: url(../img/story2.png) left top no-repeat !important;\n}\n\n#stbg3 {\n  background: url(../img/scholarships/mobile/mobile_bg.png) center top no-repeat !important;\n  background-size: cover !important;\n}\n\n/*  #homebg{background: url (../img/scholarships/desktop_bg.png) center top no-repeat !important;} */\n/*video { display: none !important; }*/\nvideo {\n  background: url(../img/desktop_bg.png) no-repeat !important;\n  background-size: cover !important;\n  display: none !important;\n}\n\n.header {\n  height: auto;\n}\n\n.header h1 {\n  font-size: 65px;\n  line-height: 65px;\n}\n\n.header h1 span, .header h1 {\n  font-size: 15vw;\n  line-height: 15vw;\n}\n\n.header .subhead {\n  width: 300px;\n}\n\n.header .subhead br {\n  display: none;\n}\n\n.headline .page-scroll {\n  margin-bottom: 0;\n  margin-top: 10px;\n}\n\nh2 {\n  font-size: 9vw;\n}\n\n/*.header h1 { font-size: 12vw; line-height: 12vw; }\n.header h1 span { font-size: 12vw; } \n.headline { margin-top: 170px; }\n.subhead { font-size: 4vw; width: 100% !important; }*/\n.subhead {\n  font-size: 20px;\n  line-height: 22px;\n}\n\n.stats {\n  padding: 40px 20px 60px 20px;\n}\n\n.p {\n  color: #074a76;\n}\n\n.story {\n  width: 100%;\n  background-position: center;\n}\n\n.story .storylink {\n  font-size: 8vw;\n}\n\n.mission {\n  padding: 0;\n  background-position: bottom;\n  padding: 20px 40px;\n}\n\n.mission h2 {\n  margin-top: 40px;\n}\n\n.mission .subhead {\n  width: 100%;\n}\n\n.mission .divider {\n  display: none;\n}\n\n.funds {\n  padding: 0;\n}\n\n.fund {\n  display: table;\n  width: 100%;\n}\n\n.fund img {\n  display: table-row-group;\n  margin: 20px  auto;\n}\n\n.fund img, .fund.off img, .fund p, .fund.off p {\n  display: none !important;\n}\n\n.fund h3 {\n  display: table-header-group;\n  font-size: 20px;\n}\n\n.funds h3 {\n  padding: 0;\n  width: auto;\n  margin: 0 auto;\n}\n\n.funds .on h3 {\n  color: #054a76;\n  background: transparent;\n}\n\n.fund {\n  border-bottom: solid 1px #054a76;\n  background: url(../img/iconplus3.png) no-repeat right;\n  padding: 40px;\n  background-position-x: 97%;\n}\n\n.fund.last {\n  border-bottom: 0px;\n}\n\n.fund.on {\n  background: none !important;\n}\n\n.fund.on img {\n  display: table-row-group !important;\n  width: 30%;\n}\n\n.fund.on p {\n  display: block !important;\n  color: #074a76;\n}\n\n.fund br, .fundcontent {\n  display: none;\n}\n\n\n@media (max-width: 280px) {\n  .number.threelines {\n    margin-top: 25%;\n  }\n}\n\n\n/* mobile modal */\nbody.modal-open {\n  overflow: visible;\n  padding: 0 !important;\n}\n\n.modal-content {\n  border-radius: 0;\n}\n\n.modal-header .close {\n  display: block;\n}\n\n.modal-header {\n  background: #074a76;\n}\n\n.modal-title {\n  color: white;\n  text-align: center;\n}\n\n.modal-body p {\n  font-size: 15px;\n  color: black;\n}\n\n.modal-body a, .modal-body a:hover {\n  color: black;\n  font-weight: 700;\n}\n\n.modal-body .pluslink {\n  background-size: 27px;\n  padding-left: 33px;\n  padding-top: 10px;\n  width: 85%;\n}\n\n.modal-body a.social {\n  display: inline-block;\n  padding: 1px;\n  font-size: 22px;\n  margin: 0 5px;\n  font-weight: normal;\n  color: white;\n  border-radius: 3px;\n  width: 40px;\n}\n\n.modal-body .sociallinks .pull-right {\n  margin-right: 20px;\n}\n\n.modal-body .sociallinks .pull-left {\n  margin-left: 20px;\n}\n \n\n\n\n\n}\n",
+			"file": "scss/global/_mobile.scss",
+			"file_size": 5108,
+			"file_write_time": 131073762910000000,
+			"settings":
+			{
+				"buffer_size": 5922,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/nav/_other-nav.scss",
+			"settings":
+			{
+				"buffer_size": 1379,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": ".header {\n  height: auto;\n}\n\n.header h1 {\n  font-size: 65px;\n  line-height: 65px;\n}\n\n.header h1 span, .header h1 {\n  font-size: 15vw;\n  line-height: 15vw;\n}\n\n.header .subhead {\n  width: 300px;\n}\n\n.header .subhead br {\n  display: none;\n}\n\n.headline .page-scroll {\n  margin-bottom: 0;\n  margin-top: 10px;\n}\n\n\n/* H1-h8(LOL I SUCK)*/\nh6 {\n  font-size: 4.5vw;\n  font-size: 50px;\n  font-weight: bold;\n  color: #074a76;\n}\n\nh2 {\n  font-size: 4.5vw;\n  font-size: 50px;\n  font-weight: bold;\n  color: #074a76;\n}\n\nh4 {\n  font-size: 4.5vw;\n  font-size: 50px;\n  font-weight: bold;\n  color: #fff;\n}\n\n\n\n.header h4 {\n  font-size: 9.5vw;\n  font-weight: 300;\n  line-height: 90px;\n  font-size: 80px;\n  margin: 0 auto 20px auto;\n  width: 80%;\n  text-align: center;\n  font-family: muli bold;\n  padding-bottom: 550px;\n}\n\n.header h1 {\n  font-size: 9.5vw;\n  font-weight: 300;\n  line-height: 90px;\n  font-size: 80px;\n  margin: 0 auto 20px auto;\n  width: 80%;\n  text-align: center;\n  font-family: muli bold;\n}\n\n.header h2 {\n  font-size: 9.5vw;\n  font-weight: 300;\n  line-height: 90px;\n  font-size: 80px;\n  margin: 0 auto 20px auto;\n  width: 80%;\n  text-align: center;\n  font-family: muli bold;\n  padding-bottom: 30px;\n  color: #fff;\n}\n\n.header h1 span {\n  font-size: 9.5vw;\n  font-size: 70px;\n  width: 90%;\n  display: inline-block;\n  font-family: muli bold;\n}\n\n\n\n\n\n /* SUB HEADERS */\n\n\n\n\n .subhead1 {\n  text-transform: uppercase;\n  font-size: 2vw;\n  letter-spacing: 1.5px;\n  line-height: 30px;\n  /*width: 48%;*/\n  margin: 0 auto;\n  font-size: 26px;\n  color: #074a76;\n  font-style: bold;\n  width: 80%;\n  padding-bottom: 20px;\n}\n\n.subhead2 {\n  text-transform: uppercase;\n  font-size: 2vw;\n  /*width: 48%;*/\n  margin: 0 auto;\n  font-size: 12px;\n  color: #074a76;\n}\n\n.subhead3 {\n  text-transform: uppercase;\n  font-size: 2vw;\n  letter-spacing: 1.5px;\n  line-height: 30px;\n  /*width: 48%;*/\n  margin: 0 auto;\n  font-size: 14px;\n  color: #fff;\n  font-style: bold;\n}\n\n.subhead8 {\n  text-transform: uppercase;\n  font-size: 2vw;\n  letter-spacing: 1.5px;\n  line-height: 30px;\n  /*width: 48%;*/\n  font-size: 22px;\n  font-family: muli bold;\n}\n\n\n.subhead {\n  text-transform: uppercase;\n  font-size: 2vw;\n  letter-spacing: 1.5px;\n  line-height: 30px;\n  /*width: 48%;*/\n  font-size: 22px;\n  font-family: muli bold;\n}\n\n.subheadstory {\n  text-transform: uppercase;\n  font-size: 2vw;\n  letter-spacing: 1.5px;\n  line-height: 30px;\n  /*width: 48%;*/\n  font-size: 22px;\n  font-family: muli bold;\n  padding-top: 30px;\n}\n",
+			"file": "scss/global/_headers.scss",
+			"file_size": 2448,
+			"file_write_time": 131073690340000000,
+			"settings":
+			{
+				"buffer_size": 2471,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/quell.scss",
+			"settings":
+			{
+				"buffer_size": 337,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"Plugin Development: Profile Events"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Mike/Sites/new_quell",
+		"/Users/Mike/Sites/new_quell/scss",
+		"/Users/Mike/Sites/new_quell/scss/buttons",
+		"/Users/Mike/Sites/new_quell/scss/global",
+		"/Users/Mike/Sites/new_quell/scss/js",
+		"/Users/Mike/Sites/new_quell/scss/nav"
+	],
+	"file_history":
+	[
+		"/Users/Mike/Sites/new_quell/scss/quell.scss",
+		"/Users/Mike/Sites/new_quell/scss/global/_mobile.scss",
+		"/Users/Mike/Downloads/Quell-master/css/quell.css",
+		"/Users/Mike/Sites/new_quell/scss/includes/_bootstrap.scss",
+		"/Users/Mike/Sites/new_quell/scss/global/_footer.scss",
+		"/Users/Mike/Sites/new_quell/scss/global/_typography.scss",
+		"/Users/Mike/Sites/new_quell/css/quell.css",
+		"/Users/Mike/Sites/new_quell/scss/global/typography.scss",
+		"/Users/Mike/Sites/new_quell/scss/Layouts/buttons.scss",
+		"/Users/Mike/Sites/quell-sqsp/package.json",
+		"/Users/Mike/Sites/quell-sqsp/js/lib/jquery/package.json",
+		"/Users/Mike/Sites/quell-sqsp/sass/collections/_collection-type-events.scss",
+		"/Users/Mike/Sites/quell-sqsp/sass/blocks/_sqs-summary-block.scss",
+		"/Users/Mike/Desktop/broker/06337 Washington Broker Alert.html",
+		"/Users/Mike/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"@media",
+			"font-fami",
+			"the",
+			"ingr",
+			"width=\"50%\"",
+			"ingred",
+			"facts",
+			"wdith=\"220\"",
+			"table=\"#70",
+			"in",
+			"ingred",
+			"some exam",
+			"some exm",
+			"did you",
+			"print",
+			"food",
+			"healthy",
+			"perma",
+			"of month",
+			"think about",
+			"gift card",
+			"a gift",
+			"ach",
+			"las",
+			"april",
+			"aetna whole",
+			"learn more",
+			"impro",
+			"width=\"50\"",
+			"when we",
+			"also as",
+			"aetna",
+			"we rec",
+			"small group",
+			"self",
+			"fully",
+			"self-",
+			"learn",
+			"save",
+			"self",
+			"Learn More",
+			"Lern More",
+			"learn more",
+			"small group",
+			"the aetna",
+			"here",
+			"save ",
+			"save money",
+			"save",
+			"save money",
+			"quoting",
+			"p"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Mike/Downloads/Quell-master/css/quell.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11346,
+								11314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13035.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/nav/_navbar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1132,
+								1132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 345.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/buttons/_buttons.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								449,
+								449
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scss/global/_media.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1541,
+								1541
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "scss/global/_mobile.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5915,
+								5915
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5880.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "scss/nav/_other-nav.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1379,
+								1379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 525.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "scss/global/_headers.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								327,
+								327
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1157.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "scss/quell.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "new-quell.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

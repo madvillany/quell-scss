@@ -1,0 +1,39 @@
+.mmonth-btns {
+  float: left;
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.navbtn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  display: none;
+}
+
+/* display none btns */
+.month-btns {
+  display: none;
+}
+
+.ug {
+  display: none;
+}
+
+/* donate button */
+.button.fixed {
+  position: fixed;
+  top: 80%;
+  right: 0;
+  font-size: 1;
+  z-index: 100000;
+}
+
+#donate-btn {
+  padding: 0;
+}
+
+#donate-btn img {
+  height: 40px;
+}

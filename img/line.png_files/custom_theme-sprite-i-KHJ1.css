@@ -1,0 +1,190 @@
+/*
+ * This CSS file was automatically generated using the autospriting tool.
+ * See tools/update_sprites.php
+ * Images will be concatenated into sprites and corresponding CSS rules updated on deployment
+ * Last updated on: December 16, 2014
+ */
+
+
+.sprite_12x12_jump_icon
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -0px;
+	width: 12px;
+	height: 12px;
+}
+.sprite_14x14_close_circle
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -17px;
+	width: 14px;
+	height: 14px;
+}
+.sprite_16x16_comment_icon
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -36px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_go_to_arrow
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -57px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_icon_view
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -78px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_icon_view_selected
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -99px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_list_view
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -120px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_list_view_selected
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -141px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_minus_decline
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -162px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_plus_accept
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -183px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_reminder
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -204px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_reminder_bell
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -225px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_rotate
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -246px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_select
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -267px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_select_hover
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -288px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_selected
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -309px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_tag_icon
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -330px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_tag_icon_highlight
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -351px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_task_icon
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -372px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_16x16_waste_bin
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -393px;
+	width: 16px;
+	height: 16px;
+}
+.sprite_32x32_header_apps_tab
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -414px;
+	width: 32px;
+	height: 32px;
+}
+.sprite_32x32_header_current_user_tab
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -451px;
+	width: 28px;
+	height: 28px;
+}
+.sprite_9x9_down_arrow
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -484px;
+	width: 9px;
+	height: 9px;
+}
+.sprite_9x9_left_arrow
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -498px;
+	width: 9px;
+	height: 9px;
+}
+.sprite_9x9_right_arrow
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -512px;
+	width: 9px;
+	height: 9px;
+}
+.sprite_9x9_up_arrow
+{
+	background-image: url('../../img/sprites/custom_theme-wl6pD9.png');
+	background-position: left -526px;
+	width: 9px;
+	height: 9px;
+}
