@@ -1,25 +1,69 @@
-// buttons
-@import "buttons/buttons";
-@import "buttons/scholarship-btns";
+// buttons for each page 
+@import "buttons/universal";
+@import "buttons/scholarships";
+@import "buttons/homepage";
+@import "buttons/mask";
+@import "buttons/lfm";
 
-// NAV
-@import "nav/other-nav";
-@import "nav/navbar";
-@import "nav/layout";
 
-// Global
+//Home_Page
+@import "homepage/headers";
+@import "homepage/video";
+@import "homepage/type";
+@import "homepage/sub-headers";
+@import "homepage/logo";
+@import "homepage/old-classes";
+@import "homepage/new-classes";
+@import "homepage/take-action";
+@import "homepage/stories";
+@import "homepage/mask";
+@import "homepage/scholarship";
+@import "homepage/mission";
+@import "homepage/heads";
+
+//Global
 @import "global/footer";
 @import "global/typography";
-@import "global/media";
 @import "global/headers";
-@import "global/mobile";
 @import "global/sub-headers";
 @import "global/fittext";
 
+// Stories
+@import "stories/background-imgs";
+@import "stories/old-classes";
+@import "stories/new-classes";
+@import "stories/type";
+@import "stories/header-imgs";
+@import "stories/headers";
+@import "stories/sub-headers";
 
-// layouts
-@import "layouts/other";
-@import "layouts/hs";
+/* scholarships
+@import "stories/background-imgs";
+@import "stories/old-classes";
+@import "stories/new-classes";
+@import "stories/type";
+@import "stories/header-imgs";
+@import "stories/headers";
+@import "stories/sub-headers"; */
 
-// includes
-@import "includes/bootstrap";
+
+//Lift the Mask
+
+@import "mask/background-imgs";
+@import "mask/old-classes";
+@import "mask/new-classes";
+@import "mask/type";
+@import "mask/header-imgs";
+@import "mask/headers";
+@import "mask/sub-headers";
+
+
+//Javascript
+@import "js/javascript";
+
+//Nav
+@import "nav/other-nav";
+@import "nav/navbar";
+
+
+

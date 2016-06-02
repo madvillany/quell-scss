@@ -113,4 +113,69 @@ header {
   overflow: hidden;
 }
 
+
+
+
+
+
+
+/* h1 to h6 headers */
+
+
+
+h6 {
+  font-size: 4.5vw;
+  font-size: 50px;
+  font-weight: bold;
+  color: #074a76;
+}
+
+h2 {
+  font-size: 4.5vw;
+  font-size: 50px;
+  font-weight: bold;
+  color: #074a76;
+}
+
+h4 {
+  font-size: 4.5vw;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+
+/* LOGO HEADER */
+
+.logo {
+  margin-top: 0px;
+}
+
+.logo small {
+  color: #074a76;
+  /*visibility: hidden; */
+  -webkit-animation-duration: 10s;
+  /* Chrome, Safari, Opera */
+  animation-duration: 10s;
+}
+
+
+
+/* NOT SURE HEADERS */
+
+
+
+
+.header .fa {
+  font-size: 1.6vw;
+  font-family: 'Muli';
+  margin-bottom: 20px;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
+  display: inline-block;
+}
+
+
+
  

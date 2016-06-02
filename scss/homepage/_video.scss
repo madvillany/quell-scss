@@ -1,0 +1,32 @@
+/* Video Background */
+
+
+
+video {
+  background: url(../img/desktop_bg.png) no-repeat !important;
+  background-size: cover !important;
+  display: none !important;
+}
+
+
+
+
+/* mobile bakcground imgs */
+.mobilebkg {
+  position: fixed;
+  background: url(../img/desktop_bg.png) center top no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  width: 100%;
+  z-index: -1;
+}
+
+.mobilebkg1 {
+  position: fixed;
+  background: url(img/scholarships/scholar_bg.png) center top no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  width: 100%;
+  z-index: -1;
+}
+

@@ -1,0 +1,106 @@
+/* Chevron Arrow  */
+
+.army-chevron {
+  box-sizing: content-box;
+  width: 50px;
+  height: 0;
+  position: relative;
+  margin: 0 0 6px;
+  padding: 1px;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  text-overflow: clip;
+  margin: 30px 0;
+}
+
+.army-chevron::before {
+  box-sizing: content-box;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: black;
+  text-overflow: clip;
+  background: white;
+  text-shadow: none;
+  -webkit-transform: skewY(33deg);
+  -ms-transform: skewY(33deg);
+      transform: skewY(33deg);
+}
+
+.army-chevron::after {
+  box-sizing: content-box;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: black;
+  text-overflow: clip;
+  background: white;
+  text-shadow: none;
+  -webkit-transform: skewY(-33deg);
+  -ms-transform: skewY(-33deg);
+      transform: skewY(-33deg);
+}
+
+
+
+
+
+/* homepage story button */ 
+
+
+
+.navbtn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  display: none;
+}
+
+
+
+
+/* Scholarship learn more button */
+
+
+.cta-btn2 {
+  bottom: 10px;
+  left: 50%;
+  height: 150px;
+  padding-top: 150px;
+  line-height: 50px;
+}
+
+
+
+/* Donate, Events*/
+
+.cta .btn1 {
+  font-weight: 700;
+  width: 90%;
+  height: 50px;
+  background: url(../img/button_bg.png) no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+
+/* Share */
+
+
+
+
+
